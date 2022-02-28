@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&family=Merriweather:wght@300;400;700&family=Poppins:ital,wght@0,200;0,300;0,400;1,300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif; 
+}
+body{
+    background-image: url('slava-keyzman-kqG_QSZpN98-unsplash.jpg');
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.content{
+    text-align: center;
+    background-color: rgba(255, 255, 255,0.6);
+    height: 400px;
+    width: 400px; 
+    border-radius: 15px;
+    justify-items: center;
+}  
+
+.content img{
+    height: 100px;
+    width: 100px;
+}
+.notification{
+    font-size: 16px;
+    color: rgb(231, 29, 29);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+} 
+.content h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+     
+    color: #030235;
+}
+.temperature,span{
+    font-size: 6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #030235;
+} 
+.description,.localisation{
+    
+    font-family: 'Poppins', sans-serif;
+     
+     
+     text-transform: capitalize;
+     color: #030235;
+}

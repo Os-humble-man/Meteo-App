@@ -3,7 +3,7 @@ const notification = document.querySelector('.notification');
 const temperature = document.querySelector('.temperature');
 const description = document.querySelector('.description');
 const localisation = document.querySelector('.localisation');
-const icons = document.querySelector('.icon');
+const icons = document.querySelector('img');
 //clé api
 
 const key = '6b3b4d67784e44f17ca349af3bb53e1e';
@@ -43,7 +43,7 @@ function displaydata(data){
     temperature.innerHTML =`${temp}°`;
     description.innerHTML = desc;
     localisation.innerHTML = PaysVille;
-    icons.innerHTML = `<img src="img/clipart1846485.png"/>`;
+    icons.innerHTML = `<img src=""/>`;
 
 }
 

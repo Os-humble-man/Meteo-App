@@ -40,7 +40,7 @@ function displaydata(data){
    const icon = data.current.weather[0].icon;
     const PaysVille = data.timezone;
     //affichage
-    temperature.innerHTML =`${temp} °<span>C</span>`;
+    temperature.innerHTML =`${temp}°`;
     description.innerHTML = desc;
     localisation.innerHTML = PaysVille;
     icons.innerHTML = `<img src="img/clipart1846485.png"/>`;

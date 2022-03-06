@@ -3,7 +3,7 @@ const notification = document.querySelector('.notification');
 const temperature = document.querySelector('.temperature');
 const description = document.querySelector('.description');
 const localisation = document.querySelector('.localisation');
-const icons = document.getElementById("icon");
+const icons = document.querySelector(".icon-weather");
 //clé api
 
 const key = '6b3b4d67784e44f17ca349af3bb53e1e';

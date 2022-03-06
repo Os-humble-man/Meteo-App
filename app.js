@@ -43,7 +43,7 @@ function displaydata(data){
     temperature.innerHTML =`${temp}°`;
     description.innerHTML = desc;
     localisation.innerHTML = PaysVille;
-    icons.innerHTML = icon;
+    icons.innerHTML = <img src="${icon}.png">;
 
 }
 
